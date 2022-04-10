@@ -1,0 +1,254 @@
+main start at this time 1649547085.3452888
+-----------------------------------------before load data 
+ Nvidia-smi: 1.1785888671875 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+in feats:  128
+for loop block_dataloader item  time:  0.21972012519836426
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 2.1864013671875 GB
+    Memory Allocated: 0.0963897705078125  GigaBytes
+Max Memory Allocated: 0.0963897705078125  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 17.7391357421875 GB
+    Memory Allocated: 15.273761749267578  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03471112251281738 |0.3603343963623047 |1.0234317779541016 |0.00020551681518554688 |0.33867764472961426 |0.009257078170776367 |
+----------------------------------------------------------pseudo_mini_loss sum 4.967375755310059
+for loop block_dataloader item  time:  2.197296380996704
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.2039794921875 GB
+    Memory Allocated: 0.1010894775390625  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.2039794921875 GB
+    Memory Allocated: 15.243149280548096  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03190267086029053 |0.1851404905319214 |0.6397459506988525 |0.002529621124267578 |0.3412564992904663 |0.00957179069519043 |
+----------------------------------------------------------pseudo_mini_loss sum 3.8477487564086914
+for loop block_dataloader item  time:  3.101057291030884
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.2039794921875 GB
+    Memory Allocated: 0.1015777587890625  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 15.266074657440186  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.030916134516398113 |0.12674403190612793 |0.5150373776753744 |0.003426790237426758 |0.34060033162434894 |0.0068318843841552734 |
+----------------------------------------------------------pseudo_mini_loss sum 3.164351463317871
+for loop block_dataloader item  time:  3.9562416076660156
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 0.1009063720703125  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 15.266047477722168  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.030454576015472412 |0.09769165515899658 |0.450971782207489 |0.005864500999450684 |0.3434474468231201 |0.007109165191650391 |
+----------------------------------------------------------pseudo_mini_loss sum 2.8107166290283203
+for loop block_dataloader item  time:  4.849313735961914
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 0.10143470764160156  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 15.266782760620117  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03154759407043457 |0.08059730529785156 |0.4118195533752441 |0.006128883361816407 |0.34276866912841797 |0.006715536117553711 |
+----------------------------------------------------------pseudo_mini_loss sum 2.8003547191619873
+for loop block_dataloader item  time:  5.706541061401367
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 0.10174226760864258  GigaBytes
+Max Memory Allocated: 15.300736904144287  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 15.321629524230957  GigaBytes
+Max Memory Allocated: 15.351123809814453  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.031166990598042805 |0.06900628407796223 |0.38546963532765705 |0.006296873092651367 |0.342568318049113 |0.006558418273925781 |
+----------------------------------------------------------pseudo_mini_loss sum 2.6656477451324463
+for loop block_dataloader item  time:  6.548176288604736
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9403076171875 GB
+    Memory Allocated: 0.10152864456176758  GigaBytes
+Max Memory Allocated: 15.351123809814453  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9656982421875 GB
+    Memory Allocated: 15.329856872558594  GigaBytes
+Max Memory Allocated: 15.359495639801025  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03089860507420131 |0.06059060777936663 |0.36784342357090544 |0.006417308534894671 |0.3427328722817557 |0.00740361213684082 |
+----------------------------------------------------------pseudo_mini_loss sum 2.5247631072998047
+for loop block_dataloader item  time:  7.396458387374878
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9656982421875 GB
+    Memory Allocated: 0.10146713256835938  GigaBytes
+Max Memory Allocated: 15.359495639801025  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9813232421875 GB
+    Memory Allocated: 15.360750198364258  GigaBytes
+Max Memory Allocated: 15.390400409698486  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.030581653118133545 |0.0542779266834259 |0.3540503680706024 |0.006383955478668213 |0.34355077147483826 |0.007288932800292969 |
+----------------------------------------------------------pseudo_mini_loss sum 2.38917875289917
+ Run 0| Epoch 0 |
+Number of nodes for computation during this epoch:  2954914
+Number of first layer input nodes during this epoch:  1283709
+block dataloader generation time/epoch 9.5367431640625e-07
+for loop block_dataloader item  time:  0.17334794998168945
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.1015310287475586  GigaBytes
+Max Memory Allocated: 15.390400409698486  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.369437217712402  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.029473304748535156 |0.009992599487304688 |0.2587547302246094 |0.007330656051635742 |0.3447742462158203 |0.0073583126068115234 |
+----------------------------------------------------------pseudo_mini_loss sum 2.2957398891448975
+for loop block_dataloader item  time:  1.0181982517242432
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10126686096191406  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.260598182678223  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03005969524383545 |0.009905695915222168 |0.2563056945800781 |0.006958127021789551 |0.34406936168670654 |0.0072591304779052734 |
+----------------------------------------------------------pseudo_mini_loss sum 2.2158052921295166
+for loop block_dataloader item  time:  1.8690063953399658
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10137224197387695  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.337218761444092  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.029818058013916016 |0.010457833607991537 |0.25595974922180176 |0.0071154435475667315 |0.35117173194885254 |0.007532596588134766 |
+----------------------------------------------------------pseudo_mini_loss sum 2.142153024673462
+for loop block_dataloader item  time:  2.81388783454895
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.1013946533203125  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.323972225189209  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03176063299179077 |0.010890662670135498 |0.25542330741882324 |0.007162272930145264 |0.3436861038208008 |0.004789113998413086 |
+----------------------------------------------------------pseudo_mini_loss sum 2.0980846881866455
+for loop block_dataloader item  time:  3.638504981994629
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10122823715209961  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.284940242767334  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.0313377857208252 |0.010880470275878906 |0.25807642936706543 |0.007701683044433594 |0.3416912078857422 |0.006556034088134766 |
+----------------------------------------------------------pseudo_mini_loss sum 2.035581588745117
+for loop block_dataloader item  time:  4.4834794998168945
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10134172439575195  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.313621520996094  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.031070947647094727 |0.010724504788716635 |0.25745586554209393 |0.007472674051920573 |0.338872234026591 |0.006270170211791992 |
+----------------------------------------------------------pseudo_mini_loss sum 1.9621025323867798
+for loop block_dataloader item  time:  5.29777717590332
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10114812850952148  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.250370025634766  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.030766146523611888 |0.010613373347691126 |0.2568457807813372 |0.0073583126068115234 |0.33678429467337473 |0.006718873977661133 |
+----------------------------------------------------------pseudo_mini_loss sum 1.9685879945755005
+for loop block_dataloader item  time:  6.110033273696899
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 0.10128164291381836  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 18.9832763671875 GB
+    Memory Allocated: 15.30144453048706  GigaBytes
+Max Memory Allocated: 15.399064540863037  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.030566900968551636 |0.010716259479522705 |0.2569247782230377 |0.007091134786605835 |0.33633366227149963 |0.006366252899169922 |
+----------------------------------------------------------pseudo_mini_loss sum 1.9060966968536377
+Total (block generation + training)time/epoch 6.775525093078613
+Training time/epoch 6.775284051895142
+Training time without block to device /epoch 6.68955397605896
+Training time without total dataloading part /epoch 4.809162855148315
+load block tensor time/epoch 0.24453520774841309
+block to device time/epoch 0.08573007583618164
+input features size transfer per epoch 1.0728836059570312e-06
+blocks size to device per epoch 7.152557373046875e-07
+ Run 0| Epoch 1 |
+Number of nodes for computation during this epoch:  2956888
+Number of first layer input nodes during this epoch:  1284021

@@ -1,0 +1,86 @@
+main start at this time 1649547055.9998298
+-----------------------------------------before load data 
+ Nvidia-smi: 1.1785888671875 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+in feats:  128
+for loop block_dataloader item  time:  0.4729330539703369
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 2.2078857421875 GB
+    Memory Allocated: 0.10806608200073242  GigaBytes
+Max Memory Allocated: 0.10806608200073242  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 21.6141357421875 GB
+    Memory Allocated: 19.26881504058838  GigaBytes
+Max Memory Allocated: 19.379486560821533  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06957864761352539 |0.36249589920043945 |1.1497247219085693 |0.00018310546875 |0.4073505401611328 |0.014741659164428711 |
+----------------------------------------------------------pseudo_mini_loss sum 4.939127445220947
+for loop block_dataloader item  time:  2.8454530239105225
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 22.6668701171875 GB
+    Memory Allocated: 0.11645317077636719  GigaBytes
+Max Memory Allocated: 19.379486560821533  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 22.6668701171875 GB
+    Memory Allocated: 19.351681232452393  GigaBytes
+Max Memory Allocated: 19.47067642211914  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.048119425773620605 |0.187744140625 |0.7069553136825562 |0.0024652481079101562 |0.4049701690673828 |0.0059397220611572266 |
+----------------------------------------------------------pseudo_mini_loss sum 3.83005690574646
+ Run 0| Epoch 0 |
+Number of nodes for computation during this epoch:  926744
+Number of first layer input nodes during this epoch:  332733
+block dataloader generation time/epoch 9.5367431640625e-07
+for loop block_dataloader item  time:  0.3652522563934326
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 23.0340576171875 GB
+    Memory Allocated: 0.11720466613769531  GigaBytes
+Max Memory Allocated: 19.47067642211914  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 23.0340576171875 GB
+    Memory Allocated: 19.34180736541748  GigaBytes
+Max Memory Allocated: 19.47067642211914  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.02373814582824707 |0.013090372085571289 |0.26786375045776367 |0.005763053894042969 |0.40337586402893066 |0.006821632385253906 |
+----------------------------------------------------------pseudo_mini_loss sum 3.1177985668182373
+for loop block_dataloader item  time:  1.4386546611785889
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 23.0340576171875 GB
+    Memory Allocated: 0.11624956130981445  GigaBytes
+Max Memory Allocated: 19.47067642211914  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 23.0438232421875 GB
+    Memory Allocated: 19.338528156280518  GigaBytes
+Max Memory Allocated: 19.47067642211914  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.029383420944213867 |0.013679146766662598 |0.2703655958175659 |0.0062819719314575195 |0.4079779386520386 |0.006789684295654297 |
+----------------------------------------------------------pseudo_mini_loss sum 2.852344036102295
+Total (block generation + training)time/epoch 2.2130208015441895
+Training time/epoch 2.212879180908203
+Training time without block to device /epoch 2.185520887374878
+Training time without total dataloading part /epoch 1.3760406970977783
+load block tensor time/epoch 0.058766841888427734
+block to device time/epoch 0.027358293533325195
+input features size transfer per epoch 2.682209014892578e-07
+blocks size to device per epoch 1.7881393432617188e-07
+ Run 0| Epoch 1 |
+Number of nodes for computation during this epoch:  927092
+Number of first layer input nodes during this epoch:  332739
